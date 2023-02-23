@@ -1,0 +1,30 @@
+body{
+    font-family:Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    width: 400px;
+    margin: 0 auto;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"]:hover{
+    background-color: hsl(194, 88%, 35%);
+}
